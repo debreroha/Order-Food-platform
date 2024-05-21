@@ -18,7 +18,7 @@ func displayGeneratingBill() {
 	}
 }
 
-//prints item name, price, quantity and total price and sub total amount.
+//prints item name, price, quantity and total price and sub-total amount.
 func generateBill() {
 
 	fmt.Println()
