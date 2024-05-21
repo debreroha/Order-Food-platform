@@ -85,7 +85,7 @@ func printFinalBill() {
 	fmt.Printf(" Time: %v", time.Now().Local().Format("3:4 PM"))      //display time
 	time.Sleep(time.Millisecond * 200)
 
-	generateBill() //prints details of the bill,like, item name, price, quantity and total price and sub total amount.
+	generateBill() //prints details of the bill, like, item name, price, quantity total price, and sub-total amount.
 
 	tax := 18 * subTotalBill / (100)
 	grandTotal := subTotalBill + tax
