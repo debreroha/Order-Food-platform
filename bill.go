@@ -7,7 +7,7 @@ import (
 	"time"
 )
 
-//just beautifying my code :P
+//ust beautifying my code :P
 func displayGeneratingBill() {
 	fmt.Println()
 	billDisplayText := "************************************* Generating Bill *************************************"
