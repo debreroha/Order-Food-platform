@@ -94,7 +94,7 @@ func printFinalBill() {
 	fmt.Printf("%71s: ₹%.2f\n", "GST", tax) //display tax amount
 	fmt.Printf("+%s+\n", strings.Repeat("-", 90))
 	time.Sleep(time.Millisecond * 200)
-	fmt.Printf("%71s: ₹%.2f\n", "Grand Total", grandTotal) //display final bill
+	fmt.Printf("%71s: ₹%.2f\n", "Grand Total", grandTotal) //display the final bill
 	fmt.Printf("+%s+\n", strings.Repeat("-", 90))
 
 }
